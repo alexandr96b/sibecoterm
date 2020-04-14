@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?a74aou');
+  src:  url('fonts/icomoon.eot?a74aou#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?a74aou') format('truetype'),
+    url('fonts/icomoon.woff?a74aou') format('woff'),
+    url('fonts/icomoon.svg?a74aou#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adv-img:before {
+  content: "\e900";
+  color: #80c721;
+}
+.icon-adv-img2:before {
+  content: "\e901";
+  color: #80c721;
+}
+.icon-adv-img3:before {
+  content: "\e902";
+  color: #80c721;
+}
+.icon-arrow-left:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-arrow-right:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-baz-ico:before {
+  content: "\e905";
+  color: #95b5a7;
+}
+.icon-mail:before {
+  content: "\e906";
+  color: #80c721;
+}
+.icon-marker:before {
+  content: "\e907";
+  color: #80c721;
+}
+.icon-pdf .path1:before {
+  content: "\e908";
+  color: rgb(227, 228, 216);
+}
+.icon-pdf .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(208, 206, 189);
+}
+.icon-pdf .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(181, 52, 56);
+}
+.icon-pdf .path4:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pdf .path5:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pdf .path6:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pdf .path7:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pdf .path8:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(181, 52, 56);
+}
+.icon-pdf .path9:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-pdf .path10:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-phone:before {
+  content: "\e912";
+  color: #80c721;
+}
+.icon-sm-arrow__left:before {
+  content: "\e913";
+}
+.icon-sm-arrow__right:before {
+  content: "\e914";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
