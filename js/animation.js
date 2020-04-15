@@ -11,58 +11,31 @@ function moveMenu2(){
   } else{
          $(function(){ 
               setTimeout(function() {
-                  $('.b-main-item').addClass("animated").viewportChecker({
+                  $('.animate-top').addClass("animated").viewportChecker({
                     classToAdd: 'fadeInUp',
                     offset: 0
                   });
-              }, 600);
+              }, 1500);
               setTimeout(function() {
-                  $('.b-main-content__left').addClass("animated").viewportChecker({
-                    classToAdd: 'fadeInUp',
-                    offset: 0
-                  });
-              }, 600);              
-              setTimeout(function() {
-                  $('.b-desc-col').addClass("animated").viewportChecker({
-                    classToAdd: 'fadeInUp',
-                    offset: 0
-                  });
-              }, 1000); 
-              setTimeout(function() {
-                  $('.b-title , .b-info-col , .b-main-bottom__wrapper').addClass("animated").viewportChecker({
-                    classToAdd: 'fadeInUp',
-                    offset: 0
-                  });
-              }, 1000);                                          
-              setTimeout(function() {
-                  $('.b-block-left').addClass("animated").viewportChecker({
-                    classToAdd: 'fadeInRight',
-                    offset: 0
-                  });
-              }, 1000);
-
-              setTimeout(function() {
-                  $('.b-block-right').addClass("animated").viewportChecker({
+                  $('.animate-left').addClass("animated").viewportChecker({
                     classToAdd: 'fadeInLeft',
                     offset: 0
                   });
-              }, 2200);
-
+              }, 1500);              
               setTimeout(function() {
-                  $('.block-left').addClass("animated").viewportChecker({
+                  $('.animate-right').addClass("animated").viewportChecker({
                     classToAdd: 'fadeInRight',
                     offset: 0
                   });
-              }, 2200);
+              }, 2000); 
               setTimeout(function() {
-                  $('.block-right').addClass("animated").viewportChecker({
-                    classToAdd: 'fadeInLeft',
+                  $('.animate-down').addClass("animated").viewportChecker({
+                    classToAdd: 'fadeInDown',
                     offset: 0
                   });
-              }, 2400);              
+              }, 1500);                                                        
 
                                         
-           
      })        
   }
 }

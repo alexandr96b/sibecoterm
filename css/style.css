@@ -397,7 +397,7 @@ select{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;;
 }
-.b-header-top > .container > .row > div{
+.b-header-top__container{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -1191,7 +1191,8 @@ select{
     width: 257px;
     height: 57px;
     background: url(../images/logo.svg) no-repeat;	
-    margin: 0 127px 0 0;;
+    margin: 0 127px 0 0;
+    flex-shrink: 0;
 }
 .b-footer-nav{
 	flex-shrink: 0;
@@ -1305,4 +1306,10 @@ select{
 	font-size: 134px;
 	line-height: 20px !important;
 	margin: -5px 0 0 0;;
+}
+
+
+.animate-top , .animate-left , .animate-right , .animate-down{
+	opacity: 0;
+	transition: 1s;
 }
