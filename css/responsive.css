@@ -111,6 +111,12 @@
 	.b-footer-top{
 		align-items: flex-start;
 	}
+	.b-info-img img{
+		max-width: 100%;
+	}
+	.b-info-item:after{
+		display: none;;
+	}
 }	
 @media (max-width: 1170px) {
 	
@@ -536,6 +542,9 @@
 	}
 	.b-main-item__wrapper p{
 		margin: 20px 0;
+	}
+	.b-footer-logo {
+    	margin: 0 auto 30px;
 	}
 	.animate-top , .animate-left , .animate-right , .animate-down{
 		opacity: 1;
